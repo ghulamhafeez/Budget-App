@@ -1,11 +1,11 @@
-
-import './App.css';
-
+import "./App.css";
+import MainPage from "./MainPage";
 function App() {
   return (
-   
-    <h1>Budget App</h1>
-
+    <div className="main">
+      <h1 className="h1">Budget App</h1>
+      <MainPage />
+    </div>
   );
 }
 
