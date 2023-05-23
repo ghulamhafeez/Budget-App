@@ -1,4 +1,77 @@
-.App {
-  text-align: center;
+.main {
+  background-color:  rgb(225, 250, 37);
+  padding-top: 10px;
+  padding-bottom: 300px;
 }
+.h1 {
+  text-align: center;
+  color: rgb(12, 74, 122)
+}
+.bgt-h4 {
+  color: rgb(159, 0, 0);
+  padding-left:30px;
+}
+.h3 {
+  text-align: center;
+  color: rgb(12, 74, 122)
+}
+.h2 {
+  padding-left:170px ;
+  color: rgb(12, 74, 122)
+}
+.h2-list {
+text-align: left;
+padding-left:170px ;
+  color: rgb(12, 74, 122)
+}
+.li{
+  padding-left:170px ;
+  color:#393838;
+  font-size: large;
+  font-weight:bold;
+  text-align: left;
+}
+.d-flex {
+  display: flex;
+}
+.bgt {
+  color:#393838;
+}
+.budget-input {
+width: 300px;
+height: 30px;
+font-size: large;
+margin-right: 50px;
+}
+.dialog-input {
+  width: 200px;
+  height: 30px;
+  font-size: medium;
+  margin-right: 30px;
+  margin-left: 30px;
+  }
+.budget-div {
+display: flex;
+padding: 50px 170px 70px 685px;
+}
+.expence-btn {
+ width: 120px;
+ height: 35px;
+ font-weight:bold;
+ font-size: medium;
+ color: rgb(12, 74, 122)
+
+  }
+  .list-btn {
+    width: 65px;
+    height: 22px;
+    font-weight:bold;
+    font-size: medium;
+    color: rgb(12, 74, 122);
+   background-color: #c1c1c1;
+     }
+  .dialog{
+    text-align: center;
+  }
+
 
