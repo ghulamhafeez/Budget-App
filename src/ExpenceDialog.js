@@ -42,7 +42,7 @@ export const ExpenceDialog = ({
               })
             }
           ></input>
-         {outBgt && <h3 className="bgt-h4">!Warning Out Of Budget</h3>}
+         {outBgt && <h3 className="bgt-h4">Warning! Out Of Budget</h3>}
         </DialogContent>
         <DialogActions>
           <Button onClick={() => handleClose()}>close</Button>

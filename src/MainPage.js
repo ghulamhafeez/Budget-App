@@ -33,7 +33,7 @@ const MainPage = () => {
   const handleEdit = (x) => {
     setIsEdit(true);
     setOpen(true);
-    setData({ expence: x.expence, amount: x.amount, id: x.id });
+    setData(x);
     setId(x.id);
   };
 
@@ -44,7 +44,7 @@ const MainPage = () => {
   const handleClickOpen = () => {
     setOpen(true);
     setIsEdit(false);
-    setData({ expence: "", amount: "" });
+    setData({ expence: "", amount: "", id: "" });
   };
 
   const handleClose = () => {
@@ -85,6 +85,7 @@ const MainPage = () => {
   const onSetBudget = (budget) => {
     localStorage.setItem("budget", budget);
     setActive(false);
+    setTotalBudget(budget)
   };
   const handleClickActive = () => {
     setActive(true);
